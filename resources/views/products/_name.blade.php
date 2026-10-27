@@ -1,0 +1,1 @@
+<a href="{{ route('products.show', $product) }}" class="font-medium text-brand-700 hover:underline">{{ $product->name }}</a>@if ($product->code)<span class="block text-xs text-slate-500">{{ $product->code }}</span>@endif
